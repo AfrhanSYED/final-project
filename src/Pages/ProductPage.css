@@ -1,0 +1,54 @@
+.row{
+    margin-top: 50px;
+}
+
+.btnc {
+  padding: 5px;
+}
+
+.b1 {
+  width: 100%;
+  margin-bottom: 8px;
+}
+
+.b2 {
+  width: 100%;
+}
+
+.b{
+    font-weight: 700;
+}
+#tax{
+  font-weight: 100;
+  font-size: 11px;
+}
+#price{
+  font-weight: 700;
+  font-size: 23px;
+}
+.yahoo{
+  text-decoration: none;
+}
+.myClass ul > li > a {
+  background-color: white;
+  color: red;
+}
+
+/* InActive tab */
+.myClass ul > li > a:hover {
+  background-color: pink;
+}
+
+/* Active tab */
+.myClass ul > li.active > a,
+.myClass ul > li.active > a:hover,
+.myClass ul > li.active > a:focus {
+  background-color: red;
+  color: white;
+}
+
+/* Disabled tab */
+.myClass ul > li.disabled > a {
+  background-color: lightgray;
+  color: darkgray;
+}
